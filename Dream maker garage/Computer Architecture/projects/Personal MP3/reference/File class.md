@@ -1,0 +1,15 @@
+**[name()](https://www.arduino.cc/reference/en/libraries/sd/name)**
+**[available()](https://www.arduino.cc/reference/en/libraries/sd/available)**
+**[close()](https://www.arduino.cc/reference/en/libraries/sd/close)
+[flush()](https://www.arduino.cc/reference/en/libraries/sd/flush)
+[peek()](https://www.arduino.cc/reference/en/libraries/sd/peek)**
+**[position()](https://www.arduino.cc/reference/en/libraries/sd/position)**
+**[print()](https://www.arduino.cc/reference/en/libraries/sd/print)**
+**[println()](https://www.arduino.cc/reference/en/libraries/sd/println)**
+**[seek()](https://www.arduino.cc/reference/en/libraries/sd/seek)**
+**[size()](https://www.arduino.cc/reference/en/libraries/sd/size)**
+**[read()](https://www.arduino.cc/reference/en/libraries/sd/read)**
+**[write()](https://www.arduino.cc/reference/en/libraries/sd/write)**
+**[isDirectory()](https://www.arduino.cc/reference/en/libraries/sd/isdirectory)**
+**[openNextFile()](https://www.arduino.cc/reference/en/libraries/sd/opennextfile)**
+**[rewindDirectory()](https://www.arduino.cc/reference/en/libraries/sd/rewinddirectory)**

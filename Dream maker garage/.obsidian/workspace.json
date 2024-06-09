@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "fd2c60c80e274107",
+    "type": "split",
+    "children": [
+      {
+        "id": "dda5613c588225cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e7c432320982a14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Control system/PID control.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d70b610b5e28470",
+    "type": "split",
+    "children": [
+      {
+        "id": "e411e2ec02b30863",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b50d14e76e9d5e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "63485016fb61c535",
+            "type": "leaf",
+            "state": {
+              "type": "pocket_item_list",
+              "state": {}
+            }
+          },
+          {
+            "id": "18f33d2927affb64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "convol",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6bc793da2ab9acdc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "5eaf457741d6792b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4725af6950815e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "431e00e16e5715ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Control system/PID control.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "50bba13c7d74a609",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Control system/PID control.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9a474b1df603655",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a712be4d3ec0eb78",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Control system/PID control.md"
+              }
+            }
+          },
+          {
+            "id": "c87e3259082270b5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-projects:Open projects": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "9e7c432320982a14",
+  "lastOpenFiles": [
+    "Computer Vision/notes/Loss and Optimisation.md",
+    "Computer Vision/notes/Image classifier.md",
+    "Computer Vision/notes/Convolutional neural network.md",
+    "Computer Architecture/notes/Scope and lifespans.md",
+    "Computer Architecture/notes/Microcontroller types and architecture.md",
+    "Computer Architecture/notes/Operating system.md",
+    "Artificial Intelligence/notes/Informed search.md",
+    "Artificial Intelligence/notes/Neural network.md",
+    "Artificial Intelligence/notes/Transfer learning.md",
+    "Artificial Intelligence/notes/Search algorithms implementations.md",
+    "Computer Architecture/notes/Computer Architecture.md",
+    "Computer Architecture/notes/ARM.md",
+    "Computer Architecture/notes/Arithmetic Logic Unit.md",
+    "Computer Architecture/notes/Analogue & Digital Conversion.md",
+    "截圖 2024-06-09 下午7.49.53.png",
+    "截圖 2024-06-09 下午7.45.42.png",
+    "截圖 2024-06-09 下午3.32.50.png",
+    "截圖 2024-06-09 下午3.22.40.png",
+    "截圖 2024-06-09 下午3.01.53.png",
+    "images/Tanh function.png",
+    "images/inefficient gradient update due to non-zero centered function.png",
+    "Artificial Intelligence/notes/Cartpole problem.md",
+    "Con.md",
+    "images/截圖 2024-04-28 下午5.25.46.png",
+    "images/截圖 2024-05-24 下午1.33.47.png",
+    "images/截圖 2024-05-24 下午1.20.20.png",
+    "Computer Architecture/notes/von Neumann model.md",
+    "Artificial Intelligence/notes/Gymnassium.md",
+    "Computer Architecture/notes/Instruction Set Architecture.md",
+    "Computer Architecture/notes/In system programming.md",
+    "Computer Architecture/notes/Hardware Memory.md",
+    "Artificial Intelligence/notes/Data structure.md",
+    "Artificial Intelligence/notes/Problem class.md",
+    "Artificial Intelligence/notes/Node class.md",
+    "Artificial Intelligence/notes/Heuristics.md",
+    "images/Multiplexing.md",
+    "Turing complete/levels",
+    "Artificial Intelligence/notes",
+    "images",
+    "Computer Vision/notes",
+    "Computer Vision",
+    "images/Turing complete/16.3. Counter",
+    "Computer Architecture/projects/Microcontroller development board",
+    "Computer Architecture/projects",
+    "Personal projects",
+    "Computer Science/Leetcode practices"
+  ]
+}

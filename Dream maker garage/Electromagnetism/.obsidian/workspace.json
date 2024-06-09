@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "7ae3e1d36cfc7f13",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b4292d3e001f492",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2be6c7363f7a043",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e56bafefb24b28f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2053360a8a98bc83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed57b361076b4ed6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "52199691d20640ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a9c199a3f13669ac",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ce269accb9fc9274",
+    "type": "split",
+    "children": [
+      {
+        "id": "32d7850e719e181c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3eced0b671680e1f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "75cb07a6defcbe4c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e9137082eebc261",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "04688535b9bbff13",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "ed57b361076b4ed6",
+  "lastOpenFiles": [
+    "image/direction of magnetic field.png",
+    "image",
+    "Shell theorem.md",
+    "Magnetic field.md",
+    "Eletromagnetism"
+  ]
+}

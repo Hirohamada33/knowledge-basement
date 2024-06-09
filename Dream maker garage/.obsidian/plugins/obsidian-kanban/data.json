@@ -1,0 +1,48 @@
+{
+  "hide-tags-in-title": true,
+  "tag-colors": [
+    {
+      "tagKey": "#memory",
+      "color": "",
+      "backgroundColor": "rgba(52, 197, 108, 0.1)"
+    },
+    {
+      "tagKey": "#music",
+      "color": "rgba(96, 131, 255, 1)",
+      "backgroundColor": "rgba(52, 197, 108, 0.1)"
+    },
+    {
+      "tagKey": "#ISP",
+      "color": "rgba(228, 183, 87, 1)",
+      "backgroundColor": ""
+    },
+    {
+      "tagKey": "#hello",
+      "color": "rgba(0, 255, 85, 1)",
+      "backgroundColor": ""
+    }
+  ],
+  "show-checkboxes": true,
+  "show-relative-date": true,
+  "hide-date-display": false,
+  "hide-date-in-title": true,
+  "date-colors": [
+    {
+      "isToday": false,
+      "distance": 2,
+      "unit": "days",
+      "direction": "after",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 58, 58, 1)"
+    },
+    {
+      "isToday": false,
+      "distance": 5,
+      "unit": "days",
+      "direction": "after",
+      "color": "rgba(59, 201, 54, 1)"
+    }
+  ],
+  "hide-tags-display": false,
+  "append-archive-date": true
+}

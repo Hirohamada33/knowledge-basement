@@ -1,0 +1,377 @@
+{
+  "main": {
+    "id": "9cba5f375a27fd7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ff2cd19d9e268a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7453399917757e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8-3. Odd ticks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "620e40a5613e5011",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9-1. Bit switch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b773a99f1503536a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9-1. Bit switch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "244831cf901944b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9-1. Bit switch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de7bd84a3bd46c27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-1. Byte OR & NOT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95eb8b180e863efe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-2. Adding bytes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfe4fc1546224f88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11. Input selector.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d78a8a60b3831360",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9-1. Bit switch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9079f8dca3401db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12-1. Signed negator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74ec6d9471b4f6ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12-2. The bus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bd46d9b9b6b089b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "img/12-3 1. saving gracefully/截圖 2024-03-21 下午12.10.01.png"
+              }
+            }
+          },
+          {
+            "id": "a942313c320645f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "13. Saving bytes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e644966bb8d4503",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "14. 1-bit decoder.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22842cb053a77d44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "15. 3-bit decoder.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c2dc483ca3fc1ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "16-1. Logic engine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f5548e1e49897b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "16-2. Little box.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 15
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a345493a0d8daff",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f611dcb64d4d374",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c2273c3f292c663",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "9da5aeca9cf38a52",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0535e1da8e2c859d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "98a5892ef885796d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0131af4beaaab78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "357e6ab6df059ea7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "16-2. Little box.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "da2eb8d790182780",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "16-2. Little box.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b655cc24091f6d0e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "83aea1c2b056ce87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "16-2. Little box.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "5c2273c3f292c663",
+  "lastOpenFiles": [
+    "img/16-2. Little box",
+    "img/16-2. Little box/截圖 2024-03-25 上午11.43.28.png",
+    "16-1. Logic engine.md",
+    "16-2. Little box.md",
+    "img/16-1. Logic engine",
+    "img/16-1. Logic engine/截圖 2024-03-25 上午11.11.32.png",
+    "15. 3-bit decoder.md",
+    "img/15. 3-bit decoder/截圖 2024-03-23 上午11.39.17.png",
+    "img/15. 3-bit decoder/截圖 2024-03-23 上午11.37.21.png",
+    "14. 1-bit decoder.md",
+    "img/15. 3-bit decoder",
+    "img/14. 1-bit decoder/截圖 2024-03-23 上午11.35.27.png",
+    "img/14. 1-bit decoder/截圖 2024-03-23 上午11.34.57.png",
+    "img/14. 1-bit decoder",
+    "13. Saving bytes.md",
+    "6-1. Double trouble.md",
+    "12-3. Saving gracefully.md",
+    "12-2. The bus.md",
+    "12-1. Signed negator.md",
+    "img/13. Saving bytes",
+    "img/13. Saving bytes/截圖 2024-03-23 上午11.29.41.png",
+    "2. Second ticks.md",
+    "1. Always on.md",
+    "4-1. Bigger OR gate.md",
+    "4-2 Bigger AND gate.md",
+    "img/12-3 1. saving gracefully/截圖 2024-03-21 下午12.10.01.png",
+    "img/12-3 1. saving gracefully",
+    "img/12-3. Saving gracefully/截圖 2024-03-21 下午12.04.29.png",
+    "img/12-3. Saving gracefully",
+    "img/12-2. The bus/截圖 2024-03-21 下午12.00.55.png",
+    "img/12-2. The bus",
+    "img/12-1. Signed negator",
+    "11. Input selector.md",
+    "9-1. Bit switch.md",
+    "9-2. Bit inverter.md",
+    "10-1. Byte OR & NOT.md",
+    "10-2. Adding bytes.md",
+    "components",
+    "img/11. Input selector",
+    "handful notes/High-Z state.md",
+    "handful notes/De Morgan's Laws.md",
+    "8-3. Odd ticks.md",
+    "8-2. Full adder.md",
+    "8-1. Double the number.md",
+    "7-3. Delayed lines.md",
+    "7-2. Half adder.md"
+  ]
+}

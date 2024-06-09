@@ -1,0 +1,391 @@
+{
+  "main": {
+    "id": "8f8510414e56514b",
+    "type": "split",
+    "children": [
+      {
+        "id": "683a45b74b6e5005",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5fd27aff364afa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a21a7feef41e2012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A* search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e7fcffc7b07c7dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef18759b4d20477f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd564e0a67d2d34d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tree theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d11b3df1425458ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uninformed search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09706cd5a1a586bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62618102ace523b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "169da2e77ab81bd2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
+            "id": "5acdf2636279e768",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transfomers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4aba47e835f40274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Depth-first search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53e57fa2b77e56b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9793cd60990b2e20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e7e36714d68e72e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Depth-first search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed4188946430c064",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dijkstra's algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0d91ff567687521",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6900681d85d4364",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uninformed search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c34762967d7c7c2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intelligence agent.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 15
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f484d33d60a8c15f",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b4905ade97e9b1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e817c1eec431ee20",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "68c4a8c2518d5082",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a89c1751090bb893",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300.5
+  },
+  "right": {
+    "id": "3e5d1e6dcf47f22b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b8e17199deb4b72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67dc7637b0642d66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Machine learning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "726a3f455ae1e699",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Machine learning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d16a96b66c7c7c57",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1ac962f92425dbb4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Machine learning.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-projects:Open projects": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "b0d91ff567687521",
+  "lastOpenFiles": [
+    "截圖 2024-04-16 下午1.43.44.png",
+    "img/False positives shift.png",
+    "img/False negatives shift.png",
+    "img/False categorisations.png",
+    "img/Decision boundary.png",
+    "img/Bayes theorem.png",
+    "Machine learning.md",
+    "Transfomers.md",
+    "Dijkstra's algorithm.md",
+    "Breadth-first search.md",
+    "Algorithm Analysis.md",
+    "Greedy algorithm.md",
+    "Graph theory.md",
+    "A* search.md",
+    "Data structure.md",
+    "Informed search.md",
+    "Uninformed search.md",
+    "Uniform cost search.md",
+    "AI theory.md",
+    "Iterative deepening search.md",
+    "Depth-first search.md",
+    "Deep Learning.md",
+    "Intelligence agent.md",
+    "img/general regression formula.png",
+    "img/regularisation.png",
+    "img/types of ML learning.png",
+    "img/ML process.png",
+    "截圖 2024-04-09 下午1.50.00.png",
+    "Tree theory.md",
+    "Depth-limited search.md",
+    "Traversal.md",
+    "Depth.md",
+    "code example",
+    "img",
+    "Welcome.md"
+  ]
+}
