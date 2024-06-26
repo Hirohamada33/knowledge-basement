@@ -184,3 +184,13 @@ I/O address space, on the other hand, usually is used for communicating with ext
 
 From the perspective of the CPU, the data space is single large array of locations that can be read from, or written to, using an address.
 
+
+Below is a **levels of transformation** diagram. It describe the bridge from abstract problem to a circuitry / device level solver. 
+
+![[截圖 2024-06-15 下午4.56.47.png]]
+
+**Algorithm**
+An algorithm is a step-by-step procedure that is guaranteed to terminate, such that each step is precisely stated and can be carried out by the computer. There are terms to describe each of these properties.
+We use the term **definiteness** to describe the notion that each step is precisely stated. A recipe for excellent pancakes that instructs the preparer to “stir until lumpy” lacks definiteness, since the notion of lumpiness is not precise.
+We use the term **effective computability** to describe the notion that each step can be carried out by a computer. A procedure that instructs the computer to “take the largest prime number” lacks effective computability, since there is no largest prime number.
+We use the term **finiteness** to describe the notion that the procedure terminates.

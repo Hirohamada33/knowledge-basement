@@ -1,5 +1,5 @@
 Seven Characteristics of AI Systems that might engender trust:
-1. **Explainability**: AI system that can explain its decisions. Explanations must be understandable by the user. See XAI (Explainable AI) Research
+1. **Explainability**: AI system that can explain its decisions. Explanations must be understandable by the user. See *XAI (Explainable AI) Research*
 2. **Auditability**: when something goes wrong, we need to be able to work out what happened. Equivalent to the black box on planes?
 3. **Robustness**: An AI system is robust if it is capable of dealing with perturbations to their inputs.
 4. **Correctness**: assurances the system will act ‘correctly’. E.g. safe bounds that will never be passed.

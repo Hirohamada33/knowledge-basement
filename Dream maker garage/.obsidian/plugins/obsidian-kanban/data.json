@@ -20,6 +20,11 @@
       "tagKey": "#hello",
       "color": "rgba(0, 255, 85, 1)",
       "backgroundColor": ""
+    },
+    {
+      "tagKey": "#school",
+      "color": "rgba(110, 121, 250, 1)",
+      "backgroundColor": ""
     }
   ],
   "show-checkboxes": true,

@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "dda5613c588225cc",
+        "id": "3a53d972f3c00f87",
         "type": "tabs",
         "children": [
           {
-            "id": "9e7c432320982a14",
+            "id": "27b13801fc9eacbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control system/PID control.md",
+                "file": "Computer Vision/notes/Convolutional neural network.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e3df5961e87e44a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Adam optimiser.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61e8c26024b84b2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Turing complete/levels/3. XOR gate.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1eb6f957ea62317",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Turing complete/levels/8-3. Odd ticks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -43,20 +80,12 @@
             }
           },
           {
-            "id": "63485016fb61c535",
-            "type": "leaf",
-            "state": {
-              "type": "pocket_item_list",
-              "state": {}
-            }
-          },
-          {
             "id": "18f33d2927affb64",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "convol",
+                "query": "register",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,6 +99,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "63485016fb61c535",
+            "type": "leaf",
+            "state": {
+              "type": "pocket_item_list",
               "state": {}
             }
           }
@@ -93,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control system/PID control.md",
+                "file": "Turing complete/levels/8-3. Odd ticks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Control system/PID control.md",
+                "file": "Turing complete/levels/8-3. Odd ticks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Control system/PID control.md"
+                "file": "Turing complete/levels/8-3. Odd ticks.md"
               }
             }
           },
@@ -163,44 +200,47 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "9e7c432320982a14",
+  "active": "a1eb6f957ea62317",
   "lastOpenFiles": [
-    "Computer Vision/notes/Loss and Optimisation.md",
-    "Computer Vision/notes/Image classifier.md",
-    "Computer Vision/notes/Convolutional neural network.md",
-    "Computer Architecture/notes/Scope and lifespans.md",
-    "Computer Architecture/notes/Microcontroller types and architecture.md",
-    "Computer Architecture/notes/Operating system.md",
-    "Artificial Intelligence/notes/Informed search.md",
-    "Artificial Intelligence/notes/Neural network.md",
-    "Artificial Intelligence/notes/Transfer learning.md",
-    "Artificial Intelligence/notes/Search algorithms implementations.md",
-    "Computer Architecture/notes/Computer Architecture.md",
-    "Computer Architecture/notes/ARM.md",
-    "Computer Architecture/notes/Arithmetic Logic Unit.md",
-    "Computer Architecture/notes/Analogue & Digital Conversion.md",
-    "截圖 2024-06-09 下午7.49.53.png",
-    "截圖 2024-06-09 下午7.45.42.png",
-    "截圖 2024-06-09 下午3.32.50.png",
-    "截圖 2024-06-09 下午3.22.40.png",
-    "截圖 2024-06-09 下午3.01.53.png",
-    "images/Tanh function.png",
-    "images/inefficient gradient update due to non-zero centered function.png",
-    "Artificial Intelligence/notes/Cartpole problem.md",
-    "Con.md",
-    "images/截圖 2024-04-28 下午5.25.46.png",
-    "images/截圖 2024-05-24 下午1.33.47.png",
-    "images/截圖 2024-05-24 下午1.20.20.png",
+    "Turing complete/levels/8-2. Full adder.md",
+    "Turing complete/levels/8-1. Double the number.md",
+    "Turing complete/levels/7-3. Delayed lines.md",
+    "Turing complete/levels/7-2. Half adder.md",
+    "Turing complete/levels/7-1. Counting signals.md",
+    "Turing complete/levels/6-2. Odd number of signals.md",
+    "Turing complete/levels/10-2. Adding bytes.md",
+    "Turing complete/levels/11. Input selector.md",
+    "Turing complete/levels/12-1. Signed negator.md",
+    "Turing complete/levels/10-1. Byte OR & NOT.md",
+    "Turing complete/levels/9-2. Bit inverter.md",
+    "Turing complete/levels/9-1. Bit switch.md",
+    "Turing complete/levels/8-3. Odd ticks.md",
+    "Turing complete/levels/12-3. Saving gracefully.md",
+    "Turing complete/levels/12-2. The bus.md",
+    "Turing complete/levels/13. Saving bytes.md",
+    "Turing complete/levels/16-2. Little box.md",
+    "Turing complete/levels/17-2. Registers.md",
+    "Turing complete/levels/21-1. Conditions.md",
+    "Adam optimiser.md",
+    "Turing complete/levels/20. Calculations.md",
+    "Turing complete/levels/19. Instruction decoder.md",
+    "Turing complete/levels/3. XOR gate.md",
     "Computer Architecture/notes/von Neumann model.md",
-    "Artificial Intelligence/notes/Gymnassium.md",
-    "Computer Architecture/notes/Instruction Set Architecture.md",
-    "Computer Architecture/notes/In system programming.md",
-    "Computer Architecture/notes/Hardware Memory.md",
-    "Artificial Intelligence/notes/Data structure.md",
-    "Artificial Intelligence/notes/Problem class.md",
-    "Artificial Intelligence/notes/Node class.md",
-    "Artificial Intelligence/notes/Heuristics.md",
-    "images/Multiplexing.md",
+    "Turing complete/levels/26-3. Masking time.md",
+    "Turing complete/levels/26-2. storage cracker.md",
+    "截圖 2024-06-22 下午1.46.04.png",
+    "截圖 2024-06-22 下午1.40.25.png",
+    "截圖 2024-06-21 下午11.05.41.png",
+    "截圖 2024-06-21 下午11.03.20.png",
+    "截圖 2024-06-21 下午10.56.53.png",
+    "Artificial Intelligence/Exam notes for CAB320.pdf",
+    "images/截圖 2024-06-17 下午2.58.15.png",
+    "images/截圖 2024-06-17 下午6.42.14.png",
+    "Weekly timetable.canvas",
+    "images/截圖 2024-06-20 上午12.52.43.png",
+    "images/截圖 2024-06-20 上午12.52.08.png",
+    "images/截圖 2024-06-20 上午12.50.51.png",
+    "未命名",
     "Turing complete/levels",
     "Artificial Intelligence/notes",
     "images",
@@ -208,8 +248,6 @@
     "Computer Vision",
     "images/Turing complete/16.3. Counter",
     "Computer Architecture/projects/Microcontroller development board",
-    "Computer Architecture/projects",
-    "Personal projects",
-    "Computer Science/Leetcode practices"
+    "Computer Architecture/projects"
   ]
 }

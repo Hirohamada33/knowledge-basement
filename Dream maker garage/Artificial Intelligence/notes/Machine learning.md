@@ -31,11 +31,16 @@ Types of machine learning:
 3. **Validation**
    **Holdout validation** means the dataset must be **unforeseen**, which is the specific data sets must be excluded from the training set, for better generalisation. 
    **Cross-fold validation**
+   Used to evaluate the generalization of the ML method, and sensitivity to the training/validation/test split
+• Useful to select the ‘best’ ML method (e.g. classifier)  
+• Can be useful especially if limited labelled data available
    
    Q: Why is there a separate sets for validation and testing, while their purposes seems to be similar and both served as the correcting the model? 
-   A: 
+   A: Validation step for **hyperparameters tuning**, while testing step is to evaluate the model performance. 
 4. Testing
-5. Inference / prediction
+5. **Inference / prediction**
+   The final step inference / prediction is conducted online, where a real-world dataset is fed into the system. 
+   
 
 ![[ML process.png]]
 
@@ -65,9 +70,10 @@ Notice that there are a few parameters to be determined: $w_j$ and $M$
 
 
 
-**Sum of squares error function**
+###### **Sum of squares error function**
+$$E(w)=\frac{1}{2}\sum ^N _{n=1}(y(x_n,\space w)-t_n)^2$$
 
-**Loss function**
+####### **Loss function**
 
 - E(w) is often called the Loss function: Loss(hw) for the hypothesis hw (candidate function to approximate the true function f)
 - This particular loss function (squared-error loss function) is named $L_2$
@@ -76,15 +82,19 @@ Notice that there are a few parameters to be determined: $w_j$ and $M$
 - For the general case, an optimization algorithm is used, such as gradient descent.
 
 
-**Overfitting**
+####### **Overfitting**
+In overfitting, the idea is the model fits the training dataset too well, where it overfits the geometry of the data set. When overfitting, the model performs poorly on unforeseen data set, hence a usual case is an apparent part-ways in training and testing data set. 
+Overfitting occurs when the capacity of the model becomes too large, where in the case the accuracy will increased to an unreasonable amount (such as nearly 100%) and loss is to 0%, but in unforeseen case the loss function will start exploding. 
+![[截圖 2024-06-18 上午7.47.56.png]]
 
-**Regularisation** penalises large coefficient values by adding an extra term to the loss function. 
+
+**Regularisation** penalises large coefficient values by adding an extra term to the loss function. In this way it can control the capacity of the model, and prevent any weight explosion from overfitting. 
 
 ![[regularisation.png]]
 
 
 
-#### Bayes Classification
+##### Bayes Classification
 
 $$p(Y|X) = \frac{p(X|Y)p(Y)}{p(X)}$$
 $$p(X)=\sum_Yp(X|Y)p(Y)$$
@@ -161,31 +171,84 @@ A confusion matrix (below is the binary classification case) is a presentation f
 ![[confusion matrix.png]]
 
 The accuracy is quantified by $$\frac{TN+TP}{TN+TP+FN+FP}$$which is the sum of diagonal elements of the confusion matrix (successful classification), divided by the sum of all elements of the matrix (i.e. total number of samples tested). 
-However, the limitations of accuracy are:
-- it does not tell what sort of error is presented in the system. 
+**Advantages**:
+- one number to summarise the results, easy to interpret
+**Limitation**: 
+- it does not tell what sort of error is presented in the system. (Type 1 or type 2 errors)
 - If a class is largely represented (sometimes called data imbalanced), its error (even when numbers are significant) will not be showing in the result, creating a data bias. 
+  Also referred as sensitive to class imbalance. 
+- Hence, accuracy itself tells the ambiguous story. 
+  
 ![[截圖 2024-04-28 下午5.25.46.png]]
 In the above example, if a classifier determines all the cases are negative, it still receives a 95% accuracy which in fact the classifier itself is poor. 
-Hence, accuracy itself tells the ambiguous story. 
 
 
 **Precision**  $$P=\frac{TP}{TP+FP}$$**Recall**   $$R =\frac{TP}{TP+FN}$$
-**F1 score**   $$F1 = \frac{2PR}{P+R}$$
-F1 score does not account of true negative, so it is favouring the positive class (which again is a class imbalance)
+If a false positives (false alarms)
+If a false negatives (missed detection) was to be minimised, focus on increasing the recall. 
+**Advantage**:
+- gives more details on type of errors, especially relevant if your classes are not to be treated the same
+- better with imbalanced classes
+**Limitation**:
+- If looking at only precision or recall, then, for increasing precision it can simply declares every case to be negative; for increasing recall it can simply declares every case to be positive. 
+- 
+
+
+**F1 score**   $$F1 = \frac{2PR}{P+R} = \frac{2 \times TP}{2 \times TP + FP + FN} = 2 \times \frac{\text{sensitivity} \times \text{precision}}{\text{sensitivity+precision}}$$F1 score does not account of true negative, so it is favouring the positive class (which again is a class imbalance). 
+The choice of Positive Class (vs. Negative Class) may dramatically change the value of F1 in the case of significant class imbalance. 
+(Favourable value of F1 if the positive class has mores samples than the negative class)
 ![[截圖 2024-04-28 下午7.03.42.png]]
+
+**Sensitivity (True positive rate)** = $\frac{TP}{TP+FN}$
+**Specificity (True negative rate)** = $\frac{TN}{TN+FP}$
+**Balanced accuracy** = $\frac{TPR + TNR}{2} = \frac{\text{sensitivity + specificity}}{2}$
+
 
 
 **Matthews Correlation Coefficient (MCC)**
-
+$$MCC = \frac{TP \times TN - FP \times FN}{\sqrt{(TP+FP)(TP+FN)(TF+FP)(TF+FN)}}$$
 
 **Normalised Confusion matrix**
 Help compensate the class imbalance
 
 **Receiver Operating characteristic (ROC) Curve**
-AUC 
+True Positive Rate (TPR) vs False Positive Rate (FPR) (i.e., Sensitivity vs. (1-specificity))
+Area under the curve (AUC) is a way to measure the performance of a classifier. 
+![[截圖 2024-06-18 下午3.18.24.png]]
+
 
 **Precision Recall Curve**
 
 **Some discussion of each evaluation**
 Accuracy can be **misleading** if the data is NB (imbalanced). 
+
+
+##### Multi-class
+**Macro-averaging** (treats all class equally):
+```python
+Precision = (Precision(C1)+...+Precision(Cn)) / n 
+Recall = (Recall(C1)+...+ Recall(Cn)) / n
+```
+- arithmetic mean across all classes.
+- equal weight to each class, regardless of number of instances
+Pros:
+- Good when all classes **equally important**
+- Handle **imbalanced datasets**
+Cons:
+- Performance may look worse due to low performance in a small class  
+- May not see poor performance in minority class when the number of classes is large
+
+**Micro-averaging** (treats all instances equally)
+- first aggregate counts of TP, FP, FN for each class first
+- equal weight to each instance
+```python
+Precision = (TP1+...+TPN)/(TP1+FP1+...+TPn+FPn)
+Recall = (TP1+...+TPN)/(TP1+FN1+...+TPn+FNn)
+```
+Pros:
+- Accounts for the total number of misclassifications (similar to accuracy)
+Cons:
+- Can overemphasize the performance of a **majority class** (highly represented in the dataset)
+- Might not see poor performance of **minority class**
+
 
