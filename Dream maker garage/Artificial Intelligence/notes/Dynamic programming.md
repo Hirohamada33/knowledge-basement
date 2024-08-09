@@ -138,7 +138,7 @@ Pay gap for $x_i$ + min cost aligning {$x_1, x_2, \dots, x_{i-1}$} and {$y_1, y_
 **Case 2-2**: $\text{OPT}$ leaves $y_j$ unmatched
 Pay gap for $y_j$ + min cost aligning {$x_1, x_2, \dots, x_{i}$} and {$y_1, y_2, \dots, y_{j-1}$}
 
-![[截圖 2024-06-19 上午9.57.48.png]]
+![[string edit distance algorithm.png]]
 
 ```python
 # Sequence alignment (m, n, x, y, delta, a)

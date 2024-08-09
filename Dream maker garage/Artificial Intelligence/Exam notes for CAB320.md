@@ -172,7 +172,7 @@ Pay mismatch for $x_i -y_j$ + min cost of aligning {$x_1, x_2, \dots, x_{i-1}$} 
 Pay gap for $x_i$ + min cost aligning {$x_1, x_2, \dots, x_{i-1}$} and {$y_1, y_2, \dots, y_{j}$}
 **Case 2-2**: $\text{OPT}$ leaves $y_j$ unmatched
 Pay gap for $y_j$ + min cost aligning {$x_1, x_2, \dots, x_{i}$} and {$y_1, y_2, \dots, y_{j-1}$}
-![[截圖 2024-06-20 上午12.02.48.png]]
+![[Levenshtein algorithm.png]]
 ##### Reinforcement
 **Action-value method**: $Q_t(a) = \frac{\text{sum of rewards when a taken prior to t}}{\text{number of times a taken prior to t}} = \frac{\sum_{i=1}^{t-1}R_i * 1_{A_i = a}}{\sum_{i=1}^{t-1}1_{A_i = a}}$
 **Running average**: $Q_{n+1} = Q_n + \frac{1}{n}[R_n - Q_n]$ or $(1-\alpha)^nQ_1 + \sum_{i=1}^{n}\alpha(1-\alpha)^{n-i}R_i$ if non-stationary
@@ -212,7 +212,7 @@ softmax $\sigma_i(z) = \frac{e^{z_i}}{\sum_{j=1}^{n}e^{z_j}}$
 ![[截圖 2024-06-20 上午12.50.29.png]]
 
 **Iterative-deepening search** 
-![[截圖 2024-06-20 上午12.50.51.png]]
+![[iterative-deepening search psuedocode.png]]
 
 **Graph search**
 ![[截圖 2024-06-20 上午12.52.08.png]]

@@ -1,6 +1,0 @@
-{
-	"nodes":[
-		{"id":"0e663b93cddc1f5c","type":"text","text":"#### Weekly task (19/06/24):\n\n##### Convolutional neural network \n- Lecture 8: Deep learning software \n- Lecture 9: CNN architecture\n- Assignment 1\n\n##### Comp Arch\n- Turing complete - Level 33 (with notes)\n- Lecture 9: ISA and microarchitecture\n- Lecture 10: Microarchitecture Fundamentals and design\n##### Artificial Intelligence\n- Reinforcement learning - Cartpole problem\n- Reinforcement learning lecture 1\n- ~~Dynamic programming lecture~~ #school\n- Reinforcement learning lecture\n- ~~Revision of week 1-7 (17/06/24)~~ #school\n- ~~Revision of week 8-12 (18/06/24)~~ #school \n- ~~Practice exam~~ #school","x":-660,"y":-420,"width":720,"height":640,"color":"2"}
-	],
-	"edges":[]
-}

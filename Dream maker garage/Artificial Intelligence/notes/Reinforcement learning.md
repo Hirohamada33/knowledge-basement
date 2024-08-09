@@ -137,7 +137,7 @@ $$q_{\pi'}(s, \space a) \geq q_\pi(s, \space a)$$
 - **Example**: In stock trading strategies, the system initially trades various stocks with a high temperature parameter but gradually reduces trading in less profitable stocks, focusing more on high-return stocks over time.
 
 A **policy dance**, is referred to a policy being greedified (policy update), then the value function found is also strictly better after the policy update, until both policy and value function eventually are both optimal. 
-![[截圖 2024-06-19 下午12.43.23.png]]
+![[policy evaluation and greedification.png]]
 Q: Is the reinforcement a **convex-problem**? Why does it says no local optima? #review_later 
 ##### Common algorithms
 ###### SARSA
