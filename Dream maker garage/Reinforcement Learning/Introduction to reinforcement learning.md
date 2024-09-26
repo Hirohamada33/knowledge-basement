@@ -1,3 +1,6 @@
+
+![[截圖 2024-08-15 下午1.34.17.png]]
+
 There are four fundamental elements in an RL problem:
 - **Optimisation**: 
   Goal is to find an optimal way to make decisions (i.e., yielding best outcomes or at least very good outcomes). Explicit notion of decision utility. 
@@ -23,6 +26,33 @@ RL problem is similar to other artificial problems. Below listed a comparison:
 Two scenarios where RL is particular powerful:
 1. No examples of **desired behavior** (e.g. because the goal is to go beyond human performance or there is no existing data for a task)
 2. Enormous search or optimization problem with **delayed outcomes**
+
+There are some scenarios for reinforcement learning application:
+- Fly stunt manoeuvres in a helicopter
+- Defeat the world champion at Backgammon Manage an investment portfolio
+- Control a power station
+- Make a humanoid robot walk
+- Play many different Atari games better than humans
+
+##### Rewards
+A reward $R_t$ is a scalar feedback signal, it indicates how well agent is doing at step $t$. The agent’s job is to maximise cumulative reward. 
+A very important assumption (Reward Hypothesis) is that:
+All goals can be described by the maximisation of expected cumulative reward. 
+
+
+
+##### Agent
+At each step t the agent: 
+1. Executes action $A_t$
+2. Receives observation $O_t$ 
+3. Receives scalar reward $R_t$
+
+The environment: 
+1. Receives action $A_t$
+2. Emits observation $O_{t+1}$ 
+3. Emits scalar reward $R_{t+1}$
+
+$t$ increments at env. step
 
 
 ##### Markov assumption
