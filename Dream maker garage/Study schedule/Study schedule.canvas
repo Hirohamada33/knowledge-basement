@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"311a1e9d8b84312c","type":"text","text":"#### Study schedule\n","x":-56,"y":41,"width":211,"height":59,"color":"4"},
+		{"id":"aff5c7aabaeec285","type":"text","text":"#### Reinforcement learning\n","x":-340,"y":190,"width":204,"height":70,"color":"6"},
+		{"id":"3a4597d6a458ea63","type":"text","text":"#### CNN","x":-3,"y":190,"width":106,"height":60,"color":"6"},
+		{"id":"02f4d128bb7d6188","type":"text","text":"#### Comp Arch","x":252,"y":190,"width":170,"height":140,"color":"6"},
+		{"id":"d048a03bb4a347d1","type":"text","text":"#### Parallel computing system\n","x":214,"y":360,"width":246,"height":80,"color":"2"},
+		{"id":"8e9560ca1af7d5b0","type":"text","text":"#### Operating system\n","x":-61,"y":300,"width":223,"height":60,"color":"2"},
+		{"id":"66f35614f7026564","type":"text","text":"#### Network system\n","x":-61,"y":400,"width":223,"height":60,"color":"2"},
+		{"id":"ba9a99520ccb5564","type":"text","text":"#### Deep learning\n","x":-340,"y":300,"width":204,"height":70,"color":"2"}
+	],
+	"edges":[
+		{"id":"a94e6c42a80a4922","fromNode":"311a1e9d8b84312c","fromSide":"bottom","toNode":"aff5c7aabaeec285","toSide":"top"},
+		{"id":"87e39d2d43890ae6","fromNode":"311a1e9d8b84312c","fromSide":"bottom","toNode":"02f4d128bb7d6188","toSide":"top"},
+		{"id":"3d5c7f1dd04c8e27","fromNode":"311a1e9d8b84312c","fromSide":"bottom","toNode":"3a4597d6a458ea63","toSide":"top"},
+		{"id":"5920ff6675437bd7","fromNode":"02f4d128bb7d6188","fromSide":"bottom","toNode":"d048a03bb4a347d1","toSide":"top"},
+		{"id":"e102758133a74b73","fromNode":"8e9560ca1af7d5b0","fromSide":"bottom","toNode":"66f35614f7026564","toSide":"top"},
+		{"id":"be45e70b0bff4ee8","fromNode":"3a4597d6a458ea63","fromSide":"bottom","toNode":"8e9560ca1af7d5b0","toSide":"top"},
+		{"id":"ea3148fc1e279eca","fromNode":"aff5c7aabaeec285","fromSide":"bottom","toNode":"ba9a99520ccb5564","toSide":"top"}
+	]
+}

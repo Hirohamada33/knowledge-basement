@@ -1,4 +1,3 @@
-
 ![[截圖 2024-08-15 下午1.34.17.png]]
 
 There are four fundamental elements in an RL problem:
@@ -64,3 +63,15 @@ Policy determines how the agent chooses action, mapping from states to action $\
 
 **Deterministic policy**:$$\pi(s) = a$$
 **Stochastic policy**: $$\pi(a|s) = Pr(a_t = a|s_t = s)$$
+##### Categorisation
+
+|                    | Value Based | Policy Based | Actor Critic |
+| ------------------ | :---------: | :----------: | :----------: |
+| **Policy**         |             |      x       |      x       |
+| **Value function** |      x      |              |      x       |
+
+|                             | Model-free | Model-based |
+| --------------------------- | :--------: | :---------: |
+| **Policy / Value function** |     x      |      x      |
+| **Model**                   |            |      x      |
+![[截圖 2024-10-03 下午1.28.49.png]]

@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"fdb52bc9f617f497","type":"text","text":"#### Weekly task (29/07/24):\n\n##### Convolutional neural network \n- Lecture 8: Deep learning software \n- Lecture 9: CNN architecture\n- Lecture 10: Recurrent Neural Networks\n- Lecture 11: \n- Assignment 1 - complete\n\n##### Comp Arch\n- Turing complete - Level 40 (with notes)\n- ~~Lecture 19: SIMD architecture~~\n- ~~Lecture 20: GPU Architectures~~\n- ~~Lecture 21: Memory Organization & Technology~~\n- ~~Lecture 22: Memory Hierarchy and Caches~~\n\n##### Reinforcement Learning\n- Lecture 2: Markov Decision Process\n- Lecture 4: Model-free prediction\n- Lecture 5: Model free control\n- Lecture 6: \n- Lecture 7:\n\n##### Electromagnetism\n- Chapter 3\n\n**Language**\n- Practice Seediq for 10-30 minutes (3 days a week)  \n\n| Day 1       | Day 2       | Day 3       |\n| ----------- | ----------- | ----------- |\n| *Unchecked* | *Unchecked* | *Unchecked* |\n","x":-200,"y":-1240,"width":472,"height":1200}
+	],
+	"edges":[]
+}

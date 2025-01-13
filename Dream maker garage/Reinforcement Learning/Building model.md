@@ -1,5 +1,4 @@
-Markov process and Markov chain
-is a **memoryless random process** (a sequence of random states with Markov property). 
+Markov process and Markov chain is a **memoryless random process** (a sequence of random states with Markov property). 
 The definition of Markov Process is that
 - S is a finite set of states ()
 

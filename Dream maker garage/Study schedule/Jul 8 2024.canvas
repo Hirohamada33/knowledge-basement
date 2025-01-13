@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"2604f7b72fc18024","type":"text","text":"#### Weekly task (08/07/24):\n\n##### Convolutional neural network \n- Lecture 8: Deep learning software \n- Lecture 9: CNN architecture\n- Lecture 10: Recurrent Neural Networks\n- Lecture 11: Detection and Segmentation\n- Assignment 1 - complete\n\n##### Comp Arch\n- Turing complete - Level 40 (with notes)\n- ~~Lecture 13: Pipelined processor design~~\n- ~~Lecture 14: Precise exceptions & register renaming~~\n- Lecture 15: Out-of-order execution\n- Lecture 16: Superscalar execution & branch prediction\n\n##### Reinforcement Learning\n- Lecture 2: Markov Decision process\n- ~~Lecture 3: Planning by Dynamic Programming~~\n- Lecture 4: Model-free prediction\n- Lecture 5: Model free control\n\n**Language**\n- Practice Seediq for 10-30 minutes (at least 4 days a week)  \n\n| Day 1 | Day 2       | Day 3       | Day 4       |\n| ----- | ----------- | ----------- | ----------- |\n| 07/10 | *Unchecked* | *Unchecked* | *Unchecked* |\n","x":-120,"y":-60,"width":645,"height":830,"color":"5"}
+	],
+	"edges":[]
+}

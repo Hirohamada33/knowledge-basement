@@ -1,14 +1,17 @@
-##### Markov process 
+##### Markov property 
 Markov property has a definition: 
-"The future is independent of the past given"
+`"The future is independent of the past given"`
 Mathematically it is expressed as
 $P[S_{t+1} \space|\space S_t] = P[S_{t+1}\space |\space S_1, S_2, \dots, S_t]$ 
+The transition probability is independent to the history, i.e., the states before current state. Once the state is known, the history may be thrown away, that the current state is a sufficient statistic of the future. 
 
-###### State transition matrix
-A state transition matrix $P$ defines transition probabilities from all
-states s to all successor states $s'$ 
-![[截圖 2024-08-15 下午5.11.30.png]]
-where each row of the matrix sums to 1. 
+
+Markov decision processes formally describe an environment for reinforcement learning, where the environment is fully observable. Almost all RL problems can be formalised as MDPs, as examples:
+- Optimal control primarily deals with continuous MDPs
+- Partially observable problems can be converted into MDPs
+- Bandits are MDPs with one state 
+
+##### Markov process
 The state transition probability is defined by
 $$P_{ss'} = P[ S_{t+1} = s' \space |\space S_t = s]$$
 
@@ -17,9 +20,16 @@ A Markov Process (or Markov Chain) is a tuple $⟨S,P⟩$
 - $S$ is a (finite) set of states
 - $P$ is a state transition probability matrix, $P{ss'} =P[S_{t+1}=s'\space|\space S_t=s]$ 
 
-An example of a Markov process diagram and state transition probability
+###### State transition matrix
+A state transition matrix $P$ defines transition probabilities from all
+states s to all successor states $s'$ 
+![[截圖 2024-08-15 下午5.11.30.png]]
+where each row of the matrix sums to 1. 
 
+
+An example of a Markov process diagram and state transition probability
 ![[截圖 2024-08-15 下午5.19.20.png]]
+
 
 
 ##### Markov reward process
@@ -33,7 +43,7 @@ A Markov Reward Process is a tuple $⟨S, P, R, γ⟩$
 ###### Return
 A return $G_t$ is the total discounted reward from time-step $t$.
 $$G_t = R_{t+1} +\gamma R_{t+2} + \dots =\sum_{k=0}^\infty \gamma^kR_{t+k+1}$$
-- The discount $γ ∈ [0, 1]$ is the present value of future rewards. $γ$ close to 0 leads to ”myopic” evaluation, $γ$ close to 1 leads to ”far-sighted” evaluation
+- The discount $γ ∈ [0, 1]$ is the present value of future rewards. $γ$ close to 0 leads to **myopic** evaluation, $γ$ close to 1 leads to **far-sighted** evaluation. 
 - The value of receiving reward $R$ after $k + 1$ time-steps is $γ^k R$ . 
 - This values immediate reward above delayed reward.
 
@@ -49,16 +59,32 @@ There are several intuition for using a discounted factor. Including:
 The state value function $v(s)$ of an MRP is the expected return starting from state $s$. It gives the long-term value of state $s$.
 $$v(s) = E[G_t \space|\space S_t = s]$$
 
+A sample calculation:
+![[截圖 2024-11-15 下午3.20.42.png]]
+
+The state value function representation in Markov process diagram![[截圖 2024-11-15 下午3.21.47.png]]
+
+If the discounted factor is no longer myopic ($\gamma =0.9$) 
+![[截圖 2024-11-15 下午3.22.52.png]]
+
+If undiscounted:
+![[截圖 2024-11-15 下午3.24.01.png]]
 ###### Bellman equation
 The value function can be decomposed into two parts: 
 1. immediate reward $R_{t+1}$
-2. discounted value of successor state $γv(S_{t+1})$ 
+2. discounted value of successor state $γv(S_{t+1})$
 ![[截圖 2024-08-15 下午5.45.07.png]]
+Here:
+- Expectation function summarises **all possible successive trajectories** (e.g., average of all pathways). 
+- A return is from a single pathway 
+- This is a recursive relation with the successive value function. 
+
 
 The Bellman equation is expressed as
 $$v(s)=E[R_{t+1}+γv(S_{t+1})|S_t =s]$$
 or 
 $$v(s)=R_s +γ\sum_{s' \in S}P_{ss'}v(s')$$
+(i.e., the immediate reward + the next value function * discounted factor)
 
 ![[截圖 2024-08-15 下午7.10.32.png]]
 
@@ -95,3 +121,7 @@ The state-value function $v_π(s)$ of an MDP is the expected return starting fro
 The state-value function can again be decomposed into immediate reward plus discounted value of successor state 
 $$v_π(s) = E_π [R_{t+1} + γv_π(S_{t+1}) | S_t = s]$$
 The action-value function can similarly be decomposed, $$q_π(s,a)=E_π[R_{t+1}+γq_π(S_{t+1},A_{t+1})|S_t =s,A_t =a]$$ 
+
+##### Question
+1. Does the Markov process required to be fully observable? Moreover, what's the significance of a environment to be fully observable? 
+2. For state 

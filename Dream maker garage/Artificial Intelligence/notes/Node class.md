@@ -1,5 +1,3 @@
-
-
 ```python
 class Node:
     """
