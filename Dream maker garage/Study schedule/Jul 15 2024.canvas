@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"3897fd15e38e74cf","type":"text","text":"#### Weekly task (15/07/24):\n\n##### Convolutional neural network \n- Lecture 8: Deep learning software \n- Lecture 9: CNN architecture\n- Lecture 10: Recurrent Neural Networks\n- Lecture 11: Detection and Segmentation\n- Assignment 1 - complete\n\n##### Comp Arch\n- Turing complete - Level 40 (with notes)\n- ~~Lecture 15: Out-of-order execution~~\n- ~~Lecture 16: Superscalar execution & branch prediction~~\n- Lecture 17: Advanced branch prediction\n- Lecture 18:\n\n##### Reinforcement Learning\n- Lecture 4: Model-free prediction\n- Lecture 5: Model free control\n- Lecture 6:\n- Lecture 7:\n\n**Language**\n- Practice Seediq for 10-30 minutes (at least 4 days a week)  \n\n| Day 1       | Day 2       | Day 3       | Day 4       |\n| ----------- | ----------- | ----------- | ----------- |\n| *Unchecked* | *Unchecked* | *Unchecked* | *Unchecked* |\n","x":-125,"y":-30,"width":505,"height":890},
-		{"id":"6570fcefea4bf5a7","type":"text","text":"This week is O-week, I have a bit slacked off due to exec duty. \nI haven't really do a lot studying this week. But just keep on doing! Keep progressing even it's slow. \nI've noticed the pace might be a bit too quick so will make some adjustments next week (adding electromagnetism for math parts and reduce each unit)\nStarting from next week I will begin with smaller steps but aiming to finish (just as swimming goals). \nAlso! Keep up the notes and pracs. ","x":405,"y":551,"width":455,"height":289}
-	],
-	"edges":[
-		{"id":"233fea0c58a77427","fromNode":"6570fcefea4bf5a7","fromSide":"top","toNode":"3897fd15e38e74cf","toSide":"right"}
-	]
-}

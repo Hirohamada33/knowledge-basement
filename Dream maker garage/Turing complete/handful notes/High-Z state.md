@@ -1,1 +1,0 @@
-![[High-Z state.png]]

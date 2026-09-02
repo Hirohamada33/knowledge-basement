@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"7f53e20f162f4679","type":"text","text":"","x":-133,"y":-12,"width":250,"height":60},
-		{"id":"43ac2d1e3db3436b","type":"text","text":"#### Weekly task (22/10/24):\n#### Lectures\n##### Comp Arch\n- Lecture 1 paper\n- Lecture 2: Memory\n\n##### RL\n- ~~Lecture 6: Value function approximation~~\n- Lecture 7: Policy gradient method\n- Lecture 8: \n\n##### Readings:\n- Linear algebra - Pg.250\n- C++ Annotations - Chapter 3, 4, 5\n- The Art of Electronics - Chapter 1, 6\n\n##### School \n- Math all notes + all practices (+answer) + 2 past papers + ~~challenge question~~\n- Electrical all practices\n- DECA all practices\n- Physics notes + all practices\n\n##### Societies\n###### IPRL\n- List of electronics (Friday)\n- Simulink tutorial #weeks \n- ArduPilot #weeks \n- YOLO #weeks \n\n###### Svarog\n- Altium Tutorial #days \n\n\n\n\n\n","x":-214,"y":-260,"width":412,"height":1080,"color":"6"}
-	],
-	"edges":[]
-}

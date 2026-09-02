@@ -1,6 +1,0 @@
-{
-	"nodes":[
-		{"id":"fed0dd8cd4a7d490","type":"text","text":"#### Weekly task (19/08/24):\n\n##### Convolutional neural network \n- Lecture 11: \n- Lecture 12:\n- Lecture 13: \n- Assignment 1 - complete\n\n##### Comp Arch\n- Turing complete - Level 40 (with notes)\n- Lecture 23: Prefetching \n- Lecture 24:\n- Lecture 25:\n- Lecture 26: \n\n##### Reinforcement Learning\n- Lecture 2: Markov Decision Process\n- Lecture 5: Model free control\n- Lecture 6:\n- Lecture 7:\n- Lecture 8: \n\n##### Compiler\n- Lecture 1:\n- Lecture 2: \n- Lecture 3: \n- Lecture 4: \n\n**Language**\n- Practice Seediq for 10-30 minutes (3 days a week)  \n\n| Day 1       | Day 2       | Day 3       |\n| ----------- | ----------- | ----------- |\n| *Unchecked* | *Unchecked* | *Unchecked* |\n","x":-220,"y":20,"width":500,"height":1100,"color":"#0062ff"}
-	],
-	"edges":[]
-}
